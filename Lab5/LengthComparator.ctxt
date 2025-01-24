@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=LengthComparator
+comment0.text=\n\ The\ class\ defines\ the\ compare\ method,\ which\ compares\ two\ words\ based\ on\ their\ length.\ Implements\ the\ length\ comparator.\n\n\ @author\ Padmanabh\ Kaushik\n\ @version\ 3/5/2024\n
+comment1.params=
+comment1.target=LengthComparator()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ LengthComparator\n
+comment2.params=a\ b
+comment2.target=int\ compare(Word,\ Word)
+comment2.text=\n\ The\ method\ overrides\ compare\ method.\ The\ method\ compares\n\ Two\ words\ based\ on\ their\ String\ lengths,\ and\ returns\ their\n\ difference\n\n\ @param\ \ a\ \ first\ word\n\ @param\ \ b\ \ second\ word\n\ @return\ diff\ difference\ between\ lengths\ of\ word\ a\ and\ b\n\ \n\ If\ a\ and\ b\ are\ of\ different\ lengths,\ and\ a>b\ then\ returns\ a\ positive\ number,\ and\ vice\ versa\n\ If\ a\ and\ b\ are\ of\ same\ lengths,\ and\ a\ is\ alphabetically\ higher\ yeilds\ a\ positive\ result\n\ \n\ The\ method\ returns\ results\ in\ descending\ order\n\ \n
+numComments=3

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Lab5
+comment0.text=\n\ The\ class\ Lab\ 5\ defines\ a\ main\ method\ to\ read\ in\ words\ from\ a\ txt\ files,\ and\ creates\ an\ array\ list\ of\ Word\ Objects.\ \n\ It\ defines\ three\ methods\ to\ perform\ sorting\ on\ the\ array\ list\:\ selection\ sort,\ insertion\ sort,\ and\ bubble\ sort.\n\n\ @author\ Padmanabh\ Kaushik\n\ @version\ 3/5/2024\n
+comment1.params=list\ comp
+comment1.target=int\ bubbleSort(java.util.List,\ java.util.Comparator)
+comment1.text=\n\ The\ method\ bubble\ sorts\ a\ genetic\ <T>\ list,\ by\ using\ a\ comparator\n\n\ @param\ \ list\ \ a\ generic\ list\ to\ be\ sorted\n\ @param\ comp\ a\ comparator\ to\ be\ used\ for\ sorting\n\ @return\ \ iterations\ total\ number\ of\ swaps\ performed\ during\ bubble\ sort\n
+comment2.params=list\ comp
+comment2.target=int\ selectionSort(java.util.List,\ java.util.Comparator)
+comment2.text=\n\ The\ method\ selection\ sorts\ a\ genetic\ <T>\ list,\ by\ using\ a\ comparator\n\ @param\ \ list\ \ a\ generic\ list\ to\ be\ sorted\n\ @param\ comp\ a\ comparator\ to\ be\ used\ for\ sorting\n\ @return\ \ iterations\ total\ number\ of\ swaps\ performed\ during\ selection\ sort\n
+comment3.params=list\ comp
+comment3.target=int\ insertionSort(java.util.List,\ java.util.Comparator)
+comment3.text=\n\ The\ method\ does\ insertionSort\ on\ a\ genetic\ <T>\ list,\ by\ using\ a\ comparator\n\ @param\ \ list\ \ a\ generic\ list\ to\ be\ sorted\n\ @param\ comp\ a\ comparator\ to\ be\ used\ for\ sorting\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=\n\ The\ main\ method\ reads\ the\ worlds\ from\ a\ txt\ file\ using\ extractTokens\ method,\ and\ initialized\ 4\ new\ word\ lists.\ The\ main\ does\ implements\n\ sorting\ in\ \ ways\:\ without\ using\ sorting\ method\ (based\ on\ lab4),\ using\ bubble\ sort,\ using\ selection\ sort,\ and\ using\ insertion\ sort.\ The\n\ sorting\ results\ for\ k\ \=\ 15\ are\ printed\ into\ the\ console\ for\ comparison.\n\ \n\ @param\ args\ default\ agrs\ parameter\ for\ main\n
+comment5.params=filePath
+comment5.target=java.util.ArrayList\ extractTokens(java.lang.String)
+comment5.text=\n\ The\ method\ reads\ the\ file\ at\ filepath\ using\ a\ scanner,\ splits\ the\ text\ into\ an\ array\ of\ string\ based\ on\ [\\\\W]+\ as\ a\ deliminator,\ \n\ converts\ all\ strings\ to\ lowercase,\ and\ if\ not\ present\ in\ the\ array\ list\ of\ stopWords,\ add\ these\ to\ an\ array\ list\ of\ Strings\ called\ tokens.\n\ \n\ @param\ filePath\ contains\ the\ path\ of\ the\ file\ of\ the\ processed\n\ @return\ tokens\ list\ of\ words\ in\ the\ specified\ file\ path\n
+comment6.params=filePath\ stopWords
+comment6.target=java.util.ArrayList\ extractTokens(java.lang.String,\ java.util.ArrayList)
+comment6.text=\n\ The\ method\ reads\ the\ file\ at\ filepath\ using\ a\ scanner,\ splits\ the\ text\ into\ an\ array\ of\ string\ based\ on\ [\\\\W]+\ as\ a\ deliminator,\ \n\ converts\ all\ strings\ to\ lowercase,\ and\ if\ not\ present\ in\ the\ array\ list\ of\ stopWords,\ add\ these\ to\ an\ array\ list\ of\ Strings\ called\ tokens.\n\ \n\ @param\ filepath\ path\ of\ the\ txt\ file\ of\ be\ processed\n\ @param\ stopWords\ array\ list\ of\ stopWords\n\ @return\ tokens\ list\ of\ words\ in\ the\ specified\ file\ path,\ excluding\ the\ stopwords.\n
+numComments=7

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=FreqComparatorTest
+comment0.text=\n\ This\ test\ class\ tests\ the\ frequency\ comparator,\ which\ compares\ two\ Word\ objects\ based\ on\ their\ frequencies.\n\n\ @author\ \ Padmanabh\ Kaushik\n\ @version\ 3/5/2024\n
+comment1.params=
+comment1.target=FreqComparatorTest()
+comment1.text=\n\ Default\ constructor\ for\ test\ class\ FreqComparatorTest\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\n\ Sets\ up\ the\ test\ fixture.\n\n\ Called\ before\ every\ test\ case\ method.\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\n\ Tears\ down\ the\ test\ fixture.\n\n\ Called\ after\ every\ test\ case\ method.\n
+comment4.params=
+comment4.target=void\ freqCompTest()
+comment4.text=\n\ The\ methods\ tests\ for\ frequency\ comparator\n
+numComments=5

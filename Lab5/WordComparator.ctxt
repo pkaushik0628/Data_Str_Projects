@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=WordComparator
+comment0.text=\n\ The\ class\ describes\ the\ compare\ method,\ which\ compares\ two\ words\ based\ on\ their\ lengths,\ frequencies,\ and\ alphabetical\ hierarchy.\ If\n\ two\ words\ have\ different\ frequencies,\ the\ method\ returns\ the\ difference\ of\ their\ frequencies.\ If\ the\ words\ have\ same\ frequency\ but\ \n\ different\ lengths,\ the\ method\ returns\ the\ difference\ in\ lengths.\ If\ the\ words\ have\ same\ frequency\ and\ lengths,\ its\ uses\ compareTo\n\ return\ a\ difference\ based\ on\ alphabetical\ hierarchy.\n\n\ @author\ Padmanabh\ Kaishik\n\ @version\ 3/5/2024\n
+comment1.params=
+comment1.target=WordComparator()
+comment1.text=\n\ Default\ constructor\ for\ Word\ Comparator\n
+comment2.params=a\ b
+comment2.target=int\ compare(Word,\ Word)
+comment2.text=\n\ The\ method\ overrides\ compare\ method.\ The\ method\ compares\n\ Two\ words\ based\ on\ their\ String\ lengths,\ and\ returns\ their\n\ difference\n\n\ @param\ \ a\ \ first\ word\n\ @param\ \ b\ \ second\ word\n\ @return\ diff\ difference\ between\ lengths\ of\ word\ a\ and\ b\n
+numComments=3

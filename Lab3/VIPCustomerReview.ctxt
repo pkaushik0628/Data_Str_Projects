@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=VIPCustomerReview
+comment0.text=\n\ Defines\ class\ VIPcustomerReview\ and\ its\ various\ methods\ -\ getCustomerName(),\ getLatestReview(),\ \ toString(),\ equals(),\ and\ hashCode().\ \n\ A\ VIPcustomerReview\ object\ can\ be\ created\ using\ two\ inputs\ -\ customer's\ name\ and\ the\ customer's\ latest\ input,\ both\ for\ which\ should\ \n\ be\ strings.\n\n\ @author\ Padmanabh\ Kaushik\n\ @version\ 2/15/2024\n
+comment1.params=customerName\ latestReview
+comment1.target=VIPCustomerReview(java.lang.String,\ java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ CustomerReview\n\ \n\ @param\ customerName\ takes\ in\ the\ VIP\ customer's\ name\n\ @param\ latestReview\ takes\ in\ the\ latest\ review\ for\ that\ VIP\ customer\n
+comment2.params=
+comment2.target=java.lang.String\ getCustomerName()
+comment2.text=\n\ Returns\ the\ name\ of\ the\ customer\n\ \n\ @return\ VIP\ customer\ name\n
+comment3.params=
+comment3.target=java.lang.String\ getLatestReview()
+comment3.text=\n\ Returns\ the\ latest\ review\ given\ by\ a\ customer\n\ \n\ @return\ latest\ review\ given\ by\ a\ VIP\ customer\ \n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\n\ Converts\ a\ VIPCustomerReview\ object\ to\ string\n
+comment5.params=o
+comment5.target=boolean\ equals(java.lang.Object)
+comment5.text=\n\ Checks\ if\ an\ object\ is\ a\ VIPCustomerReview\ object\ and\ if\ the\ names\ match.\ Returns\ true\ in\ that\ case,\ otherwise\ returns\ false\n\ \n\ @param\ o\ an\ object\ of\ any\ method\n\ @return\ true\ is\ the\ object\ type\ and\ customerNames\ match,\ else\ false.\n
+comment6.params=
+comment6.target=int\ hashCode()
+comment6.text=\n\ Returns\ a\ hashcode\ based\ on\ the\ customerName.\ The\ method\ should\ return\ the\ same\ hash\ code\ for\ equal\ customerName.\n\ \n\ @return\ hashcode\ for\ customerName\n
+numComments=7

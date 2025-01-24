@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Node
+comment0.text=\n\ This\ class\ defines\ a\ node\ in\ a\ linked\ list.\n\n\ @author\ Padmanabh\ Kaushik\n\ @version\ 3/7/2024\n
+comment1.params=d
+comment1.target=Node(java.lang.Object)
+comment1.text=\n\ Default\ constructor\ for\ Node\n
+comment2.params=list
+comment2.target=Node(java.util.ArrayList)
+comment2.text=\n\ Constructs\ a\ node\ using\ an\ array\ list\n\ @param\ list\ array\ list\ to\ be\ converted\ into\ linked\ list\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\n\ Returns\ the\ list\ string,\ with\ each\ item\ separated\ by\ a\ comma\n
+comment4.params=value
+comment4.target=void\ addToBack(java.lang.Object)
+comment4.text=\n\ Adds\ a\ node\ to\ the\ end\ of\ the\ list\n\ @param\ value\ generic\ input\ to\ be\ added\ to\ the\ back\ of\ the\ linked\ list\n
+comment5.params=value
+comment5.target=void\ addToFront(java.lang.Object)
+comment5.text=\n\ Adds\ a\ node\ to\ the\ front\ of\ the\ list\n\ @param\ value\ generic\ value\ to\ be\ added\ to\ the\ front\ of\ the\ linked\ list\n
+comment6.params=k
+comment6.target=void\ rotate(int)
+comment6.text=\n\ Rotates\ the\ linked\ list\ to\ the\ tight\ by\ k\ places\n\ @param\ k\ number\ of\ places\ to\ be\ rotated\n\ @throws\ IllegalArgumentException\ if\ the\ rotation\ value\ is\ negative\n
+numComments=7

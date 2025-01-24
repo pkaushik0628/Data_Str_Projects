@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=SortableNodeTest
+comment0.text=\n\ The\ test\ class\ tests\ methods\ defined\ within\ the\ SortableNode\ class,\ namely\ partition(),\ sort(),\ and\ uniqueSort().\n\n\ @author\ \ Padmanabh\ Kaushik\n\ @version\ 3/19/2024\n
+comment1.params=
+comment1.target=SortableNodeTest()
+comment1.text=\n\ Default\ constructor\ for\ test\ class\ SortableNodeTest\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\n\ Sets\ up\ the\ test\ fixture.\n\n\ Called\ before\ every\ test\ case\ method.\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\n\ Tears\ down\ the\ test\ fixture.\n\n\ Called\ after\ every\ test\ case\ method.\n
+comment4.params=
+comment4.target=void\ testPartition()
+comment4.text=\n\ This\ is\ a\ test\ method\ for\ partition().\n
+comment5.params=
+comment5.target=void\ testSort()
+comment5.text=\n\ This\ is\ a\ test\ method\ for\ testing\ sort()\n
+comment6.params=
+comment6.target=void\ testUniqueSort()
+comment6.text=\n\ This\ is\ a\ test\ method\ for\ testing\ uniqueSort()\n
+numComments=7

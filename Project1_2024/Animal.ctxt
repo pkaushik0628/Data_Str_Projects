@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Animal
+comment0.text=\n\ Defines\ abstract\ class\ Animal.\ Defines\ real\ methods\ getAge(),\ toString(),\ and\ abstract\ classes\ incrAge()\ and\ maxAge().\n\n\ @author\ Padmanabh\ Kaushik\n\ @version\ 2/11/24\n
+comment1.params=
+comment1.target=Animal()
+comment1.text=\n\ Initializes\ the\ default\ animal\ constructor\n
+comment2.params=age\ gender
+comment2.target=Animal(int,\ Animal.Gender)
+comment3.params=
+comment3.target=int\ getAge()
+comment3.text=\n\ Returns\ the\ age\ of\ the\ animal\n
+comment4.params=
+comment4.target=boolean\ maxAge()
+comment4.text=\n\ Defines\ abstract\ class\ maxAge.\ This\ class\ has\ been\ sepapately\ for\ subclasses\ Fish\ and\ Bear.\n
+comment5.params=
+comment5.target=boolean\ incrAge()
+comment5.text=\n\ Defines\ abstract\ class\ incrAge.\ This\ class\ has\ been\ sepapately\ for\ subclasses\ Fish\ and\ Bear.\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\n\ The\ method\ gives\ the\ string\ representation\ of\ the\ animal\ name.\ Overrides\ the\ toString()\ method\ in-built\ in\ Java.\n
+numComments=7

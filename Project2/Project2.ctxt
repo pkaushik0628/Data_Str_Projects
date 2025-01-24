@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Project2
+comment0.text=\n\ The\ class\ Project2\ calls\ the\ main\ method,\ which\ in\ turns\ creates\ a\ doubling\ list,\ adds\ elements\ to\ it,\ removed\ elements\ from\ it,\ prints\ out\ \n\ teh\ list\ string,\ calls\ the\ IistIterator,\ followed\ by\ again\ adding\ and\ removing\ elemnets\ in\ the\ list\ and\ printing\ out\ the\ final\ outcomes.\n\ The\ main\ purpose\ of\ this\ class\ is\ to\ test\ the\ functionality\ of\ the\ Doubling\ List.\n\n\ @author\ Padmanabh\ Kaushik\n\ @version\ 04/15/2024\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ the\ main\ method\ creates\ a\ doubling\ list,\ adds\ elements\ to\ it,\ removed\ elements\ from\ it,\ prints\ out\ \n\ the\ list\ string,\ calls\ the\ IistIterator,\ followed\ by\ again\ adding\ and\ removing\ elemnets\ in\ the\ list\ and\ printing\ out\ the\ final\ outcomes.\n\ The\ main\ purpose\ of\ this\ class\ is\ to\ test\ the\ functionality\ of\ the\ Doubling\ List.\n\ @param\ args\ command\ line\ input\ array\n
+numComments=2

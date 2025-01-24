@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Fish
+comment0.text=\n\ Implements\ the\ fish\ class,\ which\ is\ a\ child\ class\ of\ the\ abstract\ class\ Animal.\ Defines\ the\ constructor\ to\ initialize\ the\ fish\ with\ given\ age\n\ and\ gender.\ Implements\ methods\ incrAge\ and\ maxAge.\n\n\ @author\ Padmanabh\ Kaushik\n\ @version\ 2/11/24\n
+comment1.params=
+comment1.target=boolean\ incrAge()
+comment1.text=\n\ This\ method\ increments\ the\ age\ of\ teh\ fish\ by\ one\ and\ returns\ true.\ If\ max\ age\ is\ reached,\ it\ returns\ false.\n
+comment2.params=
+comment2.target=boolean\ maxAge()
+comment2.text=\n\ This\ method\ returns\ true\ is\ the\ maximum\ age\ of\ the\ fish\ has\ been\ attained.\ Else\ it\ returns\ false.\n
+numComments=3

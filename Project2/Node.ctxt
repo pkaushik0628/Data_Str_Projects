@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Node
+comment0.text=\n\ The\ node\ class\ defines\ node.\ The\ constructor\ for\ a\ node\ accepts\ a\ integer\ k,\ which\ creates\ an\ array\ of\ size\ 2^k\ within\ the\ node.\ Each\ node\n\ has\ two\ links\:\ previous\ and\ next.\ This\ helps\ in\ a\ two\ way\ movement\ in\ the\ DoublingList.\ The\ Node\ implements\ the\ add(int\ pos,\ item\ E),\ remove(int\ i),\n\ setNext(),\ setPrev(),\ and\ getList()\ methods.\ \n\n\ @author\ Padmanabh\ Kaushik\n\ @version\ 04/15/2024\n
+comment1.params=
+comment1.target=Node()
+comment1.text=\n\ Default\ constructor\ for\ objects\ of\ class\ Node.\ Used\ for\ head\ and\ tail\n
+comment2.params=k\ item
+comment2.target=Node(int,\ java.lang.Object)
+comment2.text=\n\ Creates\ a\ node\ with\ size\ 2^k,\ and\ adds\ the\ specified\ item\ to\ the\ array\n\n\ @param\ \ k\ size\ of\ the\ array\ list\ within\ \ the\ node\n\ @return\ item\ generic\ item\ to\ be\ added\ to\ the\ node\n
+comment3.params=pos\ item
+comment3.target=void\ add(int,\ java.lang.Object)
+comment3.text=\n\ Adds\ an\ item\ to\ a\ specified\ position\n\ @param\ pos\ position\ where\ the\ item\ is\ to\ be\ inserted.\ This\ is\ the\ index\ of\ the\ local\ array\ list\ specific\ to\ the\ node,\ not\ to\ the\ list\n\ @param\ item\ the\ generic\ item\ which\ is\ to\ be\ inserted\ into\ the\ array\ list\ of\ the\ node\n
+comment4.params=pos
+comment4.target=java.lang.Object\ remove(int)
+comment4.text=\n\ Removes\ an\ item\ from\ a\ given\ position\n\ @param\ pos\ position\ from\ which\ an\ item\ is\ to\ be\ removed\n\ @return\ retItem\ the\ generic\ item\ which\ is\ removed\ from\ the\ specified\ position\n
+comment5.params=node
+comment5.target=void\ setNext(Node)
+comment5.text=\n\ Sets\ the\ next\ node\ for\ a\ given\ node\n\ @param\ node\ next\ node\ to\ be\ set\n
+comment6.params=node
+comment6.target=void\ setPrev(Node)
+comment6.text=\n\ Sets\ the\ previous\ node\ for\ a\ given\ node\n\ @param\ node\ previous\ node\ to\ be\ set\n
+comment7.params=
+comment7.target=java.util.ArrayList\ getList()
+comment7.text=\n\ Retrurns\ the\ array\ list\ of\ the\ Node\n\ @return\ nodeList\ the\ array\ list\ of\ the\ node\n
+numComments=8

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=AnimalTest
+comment0.text=\n\ This\ is\ a\ test\ class\ for\ unit\ testing\ REAL\ methods\ in\ Animal\ class.\ Since\ animal\ is\ an\ abstract\ class,\ instances\ of\ sub\ class\ Fish\ and\ Bear\ \n\ have\ been\ created\ to\ test\ methods\ in\ animal\ class.\n\n\ @author\ \ Padmanabh\ Kaushik\n\ @version\ 2/11/24\n
+comment1.params=
+comment1.target=AnimalTest()
+comment1.text=\n\ Default\ constructor\ for\ test\ class\ AnimalTest\n
+comment2.params=
+comment2.target=void\ getAgeTest()
+comment2.text=\n\ This\ test\ method\ verifies\ the\ functioning\ of\ the\ getAge()\ method\n
+comment3.params=
+comment3.target=void\ testToString()
+comment3.text=\n\ This\ is\ a\ test\ method\ to\ verify\ if\ the\ toString\ method\ in\ the\ animal\ class\ is\ functioning.\n
+numComments=4

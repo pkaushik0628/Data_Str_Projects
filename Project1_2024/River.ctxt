@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=River
+comment0.text=\n\ The\ River\ class\ is\ mainly\ used\ to\ initialize,\ create,\ add\ elements\ to\ the\ river,\ and\ represent\ the\ river\ as\ a\ string.\ The\ class\ is\ implementing\n\ the\ methods\ getLength(),\ numEmpty(),\ addRandom(Animal\ animal),\ updateCell(int\ i),\ and\ updateRiver(),\ and\ toString().\n\n\ @author\ Padmanabh\ Kaushik\n\ @version\ 2/11/24\n
+comment1.params=length
+comment1.target=River(int)
+comment1.text=\n\ This\ method\ creates\ a\ river\ of\ a\ specified\ length\ with\ random\ elements\:\ null,\ fish,\ or\ bear.\ The\ bish\ and\ bears\ have\ randomly\ assigned\n\ ages\ and\ genders.\n
+comment2.params=
+comment2.target=int\ getLength()
+comment2.text=\n\ This\ method\ gets\ the\ legth\ of\ the\ river\ array\n
+comment3.params=
+comment3.target=int\ numEmpty()
+comment3.text=\n\ This\ method\ gets\ the\ length\ of\ the\ river\ array\n
+comment4.params=animal
+comment4.target=boolean\ addRandom(Animal)
+comment4.text=\n\ This\ method\ puts\ the\ specified\ animal\ at\ one\ the\ available\ empty\ spaces\ in\ the\ river,\ randomly\ and\ returns\ true.\ If\ all\n\ spaces\ in\ the\ river\ array\ are\ filled,\ it\ returns\ false.\n
+comment5.params=i
+comment5.target=void\ updateCell(int)
+comment5.text=\n\ The\ method\ updates\ the\ cell\ at\ a\ specified\ index.\ If\ the\ cell\ is\ null,\ the\ method\ does\ nothing.\ \n\ If\ the\ creature\ has\ reached\ the\ end\ of\ its\ lifespan,\ the\ method\ replaces\ the\ cell\ with\ a\ null.\n\ Otherwise,\ the\ algorithm\ decides\ which\ direction,\ if\ any,\ the\ animal\ should\ move,\ and\ what\ other\ actions\n\ to\ take\ (including\ the\ creation\ of\ a\ child),\ following\ the\ specific\ rules.\n
+comment6.params=
+comment6.target=void\ updateRiver()
+comment6.text=\n\ The\ method\ update\ the\ whole\ river,\ updating\ ages,\ moving\ animals,\ creating\ animals,\ and\ killing\ animals.\ This\ constitutes\ one\ cycle.\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\n\ This\ method\ creates\ the\ string\ representation\ of\ the\ river\ array,\ by\ overriding\ the\ toString\ method\ in-built\ in\ Java.\n
+numComments=8

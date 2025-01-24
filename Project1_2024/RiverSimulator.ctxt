@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=RiverSimulator
+comment0.text=\n\ This\ class\ simulates\ the\ river\ ecosystem.\ It\ uses\ scanner\ to\ take\ in\ user\ inputs\ about\ the\ size\ of\ the\ river\ and\ the\n\ number\ of\ cycles\ to\ be\ simulated.\ The\ class\ creates\ a\ river\ -\ an\ array\ of\ objects\ of\ Animal,\ and\ updates\ the\ river\ for\ the\n\ numbwe\ of\ cycles\ specified\ by\ the\ user.\ \n\n\ @author\ Padmanabh\ kaushik\n\ @version\ 2/11/24\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

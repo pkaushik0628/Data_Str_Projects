@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=BasicStack
+comment0.text=\n\ A\ minimal\ stack\ interface.\n\n\ @author\ Jon\ Dahl\n\ @version\ 1\n
+comment1.params=item
+comment1.target=java.lang.Object\ push(java.lang.Object)
+comment1.text=\n\ Pushes\ an\ item\ onto\ the\ top\ of\ the\ stack.\n\ \n\ @param\ item\ the\ item\ to\ be\ pushed\n\ @return\ the\ item\ pushed\ onto\ the\ stack\n
+comment2.params=
+comment2.target=java.lang.Object\ pop()
+comment2.text=\n\ Pops\ an\ item\ from\ the\ stack\ and\ returns\ it.\ \ The\ item\ popped\ is\n\ removed\ from\ the\ stack.\n\ \n\ @return\ the\ Object\ popped\ from\ the\ stack\n\ @throws\ EmptyStackException\ if\ the\ stack\ is\ empty\n
+comment3.params=
+comment3.target=java.lang.Object\ peek()
+comment3.text=\n\ Retrieves,\ but\ does\ not\ remove,\ the\ top\ of\ this\ stack.\n\n\ @return\ the\ top\ of\ this\ stack\n\ @throws\ EmptyStackException\ if\ the\ stack\ is\ empty\n
+comment4.params=
+comment4.target=int\ size()
+comment4.text=\n\ Returns\ the\ size\ of\ the\ stack.\n\ \n\ @return\ the\ size\ of\ the\ stack\n
+comment5.params=
+comment5.target=boolean\ isEmpty()
+comment5.text=\n\ Returns\ whether\ the\ stack\ is\ empty.\n\ \n\ @return\ true\ if\ the\ stack\ is\ empty\n
+numComments=6

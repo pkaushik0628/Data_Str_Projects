@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PostfixDemo
+comment0.text=\n\ The\ stack\ based\ approach\ to\ evaluating\ postfix\ expressions.\n\n\ @author\ Jon\ Dahl\n\ @version\ 1\n
+comment1.params=text
+comment1.target=int\ evaluate(java.lang.String)
+comment1.text=\n\ Evaluates\ given\ String\ according\ to\ postfix\ rules,\ assuming\n\ delimination\ by\ whitespace\ and\ int\ values.\n\ \n\ @param\ text\ expression\ to\ be\ evaluated\n\ @return\ evaluated\ value\ according\ to\ int\ arithmetic\n\ @throws\ ExpressionFormatExpression\ if\ text\ is\ not\ a\ valid\ postfix\ expression\n
+comment2.params=op
+comment2.target=Operator\ getOperator(java.lang.String)
+comment2.text=\n\ Converts\ the\ given\ String\ to\ its\ corresponding\ Operator\ value.\n\ \n\ @param\ op\ String\ to\ convert\n\ @return\ corresponding\ Operator\n\ @throws\ IllegalArgumentException\ if\ op\ is\ not\ a\ supported\ operator\n
+comment3.params=op\ lhs\ rhs
+comment3.target=int\ doOperation(Operator,\ int,\ int)
+comment3.text=\n\ Applies\ the\ given\ operator\ to\ the\ given\ ints.\n\ \n\ @param\ op\ operator\ to\ apply\n\ @param\ lhs\ left\ operand\n\ @param\ rhs\ right\ operand\n\ @return\ evaluated\ value\n
+numComments=4

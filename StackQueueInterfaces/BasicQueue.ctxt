@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=BasicQueue
+comment0.text=\n\ A\ simplified\ version\ of\ the\ Queue\ interface.\n\ Reduces\ the\ standard\ Java\ Queue\ to\ its\ basic\ requirments\ for\ a\ standard\n\ CS\ queue,\ eliminating\ the\ need\ for\ iterator\ support.\n\n\ @author\ Jon\ Dahl\n\ @version\ 1\n
+comment1.params=e
+comment1.target=boolean\ add(java.lang.Object)
+comment1.text=\n\ Inserts\ the\ specified\ element\ into\ this\ queue\ if\ it\ is\ possible\ to\ do\ so\n\ immediately\ without\ violating\ capacity\ restrictions,\ returning\n\ {@code\ true}\ upon\ success\ and\ throwing\ an\ {@code\ IllegalStateException}\n\ if\ no\ space\ is\ currently\ available.\n\n\ @param\ e\ the\ element\ to\ add\n\ @return\ {@code\ true}\ (as\ specified\ by\ {@link\ Collection\#add})\n\ @throws\ IllegalStateException\ if\ the\ element\ cannot\ be\ added\ at\ this\n\ \ \ \ \ \ \ \ \ time\ due\ to\ capacity\ restrictions\n\ @throws\ ClassCastException\ if\ the\ class\ of\ the\ specified\ element\n\ \ \ \ \ \ \ \ \ prevents\ it\ from\ being\ added\ to\ this\ queue\n\ @throws\ NullPointerException\ if\ the\ specified\ element\ is\ null\ and\n\ \ \ \ \ \ \ \ \ this\ queue\ does\ not\ permit\ null\ elements\n\ @throws\ IllegalArgumentException\ if\ some\ property\ of\ this\ element\n\ \ \ \ \ \ \ \ \ prevents\ it\ from\ being\ added\ to\ this\ queue\n
+comment2.params=
+comment2.target=java.lang.Object\ remove()
+comment2.text=\n\ Retrieves\ and\ removes\ the\ head\ of\ this\ queue.\ \ This\ method\ differs\n\ from\ {@link\ \#poll\ poll}\ only\ in\ that\ it\ throws\ an\ exception\ if\ this\n\ queue\ is\ empty.\n\n\ @return\ the\ head\ of\ this\ queue\n\ @throws\ NoSuchElementException\ if\ this\ queue\ is\ empty\n
+comment3.params=
+comment3.target=java.lang.Object\ poll()
+comment3.text=\n\ Retrieves\ and\ removes\ the\ head\ of\ this\ queue,\n\ or\ returns\ {@code\ null}\ if\ this\ queue\ is\ empty.\n\n\ @return\ the\ head\ of\ this\ queue,\ or\ {@code\ null}\ if\ this\ queue\ is\ empty\n
+comment4.params=
+comment4.target=java.lang.Object\ peek()
+comment4.text=\n\ Retrieves,\ but\ does\ not\ remove,\ the\ head\ of\ this\ queue,\n\ or\ returns\ {@code\ null}\ if\ this\ queue\ is\ empty.\n\n\ @return\ the\ head\ of\ this\ queue,\ or\ {@code\ null}\ if\ this\ queue\ is\ empty\n
+comment5.params=
+comment5.target=int\ size()
+comment5.text=\n\ Returns\ the\ size\ of\ the\ stack.\n\ \n\ @return\ the\ size\ of\ the\ stack\n
+comment6.params=
+comment6.target=boolean\ isEmpty()
+comment6.text=\n\ Returns\ whether\ the\ stack\ is\ empty.\n\ \n\ @return\ true\ if\ the\ stack\ is\ empty\n
+numComments=7

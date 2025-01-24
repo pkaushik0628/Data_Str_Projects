@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Schedule
+comment0.text=\n\ The\ interface\ is\ used\ to\ ensure\ that\ the\ trucks\ and\ the\ locations\ for\ pickup/drop-off\ implement\ the\ correct\ methods,\ in\ sync\ with\ the\ clock.\n\n\ @author\ Padmanabh\ Kaushik\n\ @version\ 05/01/2024\n
+comment1.params=
+comment1.target=void\ action()
+comment1.text=\n\ Called\ each\ hour,\ allowing\ the\ object\ to\ perform\ an\ action.\ \n
+comment2.params=
+comment2.target=java.lang.String\ log_status()
+comment2.text=\n\ Will\ store\ the\ object\u2019s\ current\ information\ into\ a\ log\ file.\n\ @return\ time\ no\ of\ times\ a\ log\ has\ been\ registered\n
+numComments=3

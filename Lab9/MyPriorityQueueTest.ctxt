@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=MyPriorityQueueTest
+comment0.text=\n\ The\ test\ class\ MyPriorityQueueTest\ tests\ the\ funcality\ of\ the\ methods\ in\ of\ MyPriorityQueue.\ Each\ test\ class\ uses\ generic\ cases\ for\n\ testing\ methods\ of\ MyPriorityQueue\ individually\ and\ then\ implements\ cases\ where\ the\ results\ of\ a\ method\ are\ compared\ to\ that\ with\ the\n\ java\ priority\ queue.\ For\ the\ comparison\ between\ my\ priority\ queue\ and\ java\ priority\ queue,\ WeightedElement<Integer,\ Integer>\ and\ \n\ WeightedElement<String,\ String>\ are\ used.\n\n\ @author\ \ Padmanabh\ Kaushik\n\ @version\ 04/30/2024\n
+comment1.params=
+comment1.target=MyPriorityQueueTest()
+comment1.text=\n\ Default\ constructor\ for\ test\ class\ MyPriorityQueueTest\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\n\ Sets\ up\ the\ test\ fixture.\n\n\ Called\ before\ every\ test\ case\ method.\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\n\ Tears\ down\ the\ test\ fixture.\n\n\ Called\ after\ every\ test\ case\ method.\n
+comment4.params=
+comment4.target=void\ testAdd()
+comment4.text=\n\ This\ is\ a\ test\ method\ for\ add()\n
+comment5.params=
+comment5.target=void\ testPoll()
+comment5.text=\n\ This\ is\ a\ test\ method\ for\ poll()\n
+comment6.params=
+comment6.target=void\ testIsHeap()
+comment6.text=\n\ This\ is\ a\ test\ method\ for\ isHeap()\n
+comment7.params=
+comment7.target=void\ testPeek()
+comment7.text=\n\ This\ is\ a\ test\ method\ for\ peek()\n
+numComments=8

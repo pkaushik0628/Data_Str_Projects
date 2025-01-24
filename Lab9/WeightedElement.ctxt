@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=WeightedElement
+comment0.text=\n\ The\ class\ stores\ an\ element\ of\ type\ E\ with\ weight\ W.\ \ The\ elements\ are\ compared\ based\ on\ comparable\ relying\ on\ W's\ compareTo()\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=item\ wt
+comment1.target=WeightedElement(java.lang.Object,\ java.lang.Comparable)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ WeightedElement.\ The\ constructor\ takes\ in\ the\ element\ and\ it's\ weight\n\ @param\ item\ item\ to\ be\ stores\n\ @param\ wt\ weight\ of\ the\ item\ to\ be\ stored\n
+comment2.params=weightedElement
+comment2.target=int\ compareTo(WeightedElement)
+comment3.params=
+comment3.target=java.lang.Comparable\ getWeight()
+comment4.params=
+comment4.target=java.lang.Object\ getElement()
+numComments=5

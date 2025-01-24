@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=MyClassicPriorityQueue
+comment0.text=\n\ The\ class\ MyClassicPriorityQueue\ extends\ MyPriorityQueue.\ The\ class\ uses\ hash\ maps\ to\ get\ direct\ access\ to\ the\ array\ indices\ og\ a\ target.\n\ The\ class\ implement\ the\ methods\ add(T\ t),\ poll(),\ and\ decreaseKey(T\ target,\ T\ smallerValue).\n\n\ @author\ Padmanabh\ Kaushik\n\ @version\ 05/02/2024\n
+comment1.params=
+comment1.target=MyClassicPriorityQueue()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ MyClassicPriorityQueue\n
+comment2.params=t
+comment2.target=boolean\ add(java.lang.Comparable)
+comment3.params=
+comment3.target=java.lang.Comparable\ poll()
+comment4.params=target\ smallerValue
+comment4.target=java.lang.Comparable\ decreaseKey(java.lang.Comparable,\ java.lang.Comparable)
+comment5.params=i
+comment5.target=int\ getParentIndex(int)
+comment5.text=\n\ Returns\ the\ parent's\ index\ for\ child\ index\ i\n\ @param\ i\ index\ of\ the\ child\ elemet\n\ @return\ parentIndex\ index\ of\ the\ parent\ element\ in\ the\ array\ list\n
+comment6.params=i
+comment6.target=int\ rightChildIndex(int)
+comment6.text=\n\ Returns\ the\ index\ for\ the\ right\ child\ in\ the\ array\ list\n\ @param\ i\ index\ of\ the\ parent\ element\ in\ the\ array\ list\n\ @return\ index\ of\ the\ right\ child\n
+comment7.params=i
+comment7.target=int\ leftChildIndex(int)
+comment7.text=\n\ Returns\ the\ index\ for\ the\ left\ child\ in\ the\ array\ list\n\ @param\ i\ index\ of\ the\ parent\ element\ in\ the\ array\ list\n\ @return\ index\ of\ the\ left\ child\n
+comment8.params=
+comment8.target=java.util.HashMap\ getMap()
+comment8.text=\n\ Returns\ the\ internal\ hash\ map\ \n\ @return\ map\ internal\ hash\ map\n
+numComments=9

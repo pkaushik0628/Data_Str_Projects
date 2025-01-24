@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Tree
+comment0.text=\n\ Defines\ the\ tree\ interface\n\n\ @author\ Padmanabh\ Kaushik\n\ @version\ 4/16/2024\n
+comment1.params=e
+comment1.target=boolean\ insert(java.lang.Object)
+comment1.text=\n\ Inserts\ an\ element\ to\ the\ tree.\ If\ insertion\ of\ an\ element\ is\ successful,\ true\ is\ returned.\ Else\ false\ is\ returned.\n\ @param\ e\ the\ iterm\ to\ be\ inserted\ into\ the\ binary\ serach\ tree\n\ @return\ bool\ boolean\ value\ depending\ on\ if\ the\ insertion\ was\ successful\n\ \n
+comment2.params=e
+comment2.target=boolean\ contains(java.lang.Object)
+comment2.text=\n\ The\ method\ determines\ if\ an\ item\ e\ is\ present\ in\ the\ tree\n\ @param\ d\ item\ to\ be\ searched\ for\ in\ the\ tree\n\ @return\ bool\ true\ if\ the\ value\ is\ found\ in\ the\ tree,\ else\ false\n
+comment3.params=
+comment3.target=java.lang.String\ preOrderString()
+comment3.text=\n\ Returns\ the\ string\ expression\ of\ the\ tree\ by\ performing\ a\ pre-order\ traversal\n\ @return\ str\ Pre-order\ String\ expression\ of\ the\ tree\n
+comment4.params=
+comment4.target=java.lang.String\ postOrderString()
+comment4.text=\n\ Returns\ the\ string\ expression\ of\ the\ tree\ by\ performing\ a\ in-order\ traversal\n\ @return\ str\ Pre-order\ String\ expression\ of\ the\ tree\n
+comment5.params=
+comment5.target=java.lang.String\ inOrderString()
+comment5.text=\n\ Returns\ the\ string\ expression\ of\ the\ tree\ by\ performing\ a\ in-order\ traversal\n\ @return\ str\ Pre-order\ String\ expression\ of\ the\ tree\n
+comment6.params=
+comment6.target=void\ empty()
+comment6.text=\n\ Removes\ all\ elements\ from\ the\ tree\n
+comment7.params=
+comment7.target=boolean\ isEmpty()
+comment7.text=\n\ Determines\ if\ the\ tree\ is\ empty\n\ @return\ bool\ true\ if\ the\ tree\ is\ empty,\ else\ false\n
+numComments=8

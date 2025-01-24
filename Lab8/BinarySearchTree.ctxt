@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=BinarySearchTree
+comment0.text=\n\ The\ class\ defines\ a\ binary\ search\ search\ tree,\ where\ each\ parent\ node\ has\ two\ nodes\:\ left\ and\ right.\ The\ left\ node\ has\ a\ value\ always\ lesser\n\ than\ the\ parent\ node,\ and\ the\ right\ node\ has\ a\ value\ always\ greater\ than\ the\ parent\ node.\ The\ class\ overrides\ methods\ insert(E\ e)\ and\n\ contains(E\ d)\ from\ abstract\ class\ BinaryTree.\n\n\ @author\ Padmanabh\ Kaushik\n\ @version\ 4/16/2024\n
+comment1.params=
+comment1.target=BinarySearchTree()
+comment1.text=\n\ Constructor\ for\ class\ BinarySearchTree\n
+comment2.params=e
+comment2.target=boolean\ insert(java.lang.Comparable)
+comment2.text=\n\ Overrides\ the\ method\ insert\ for\ abstract\ class\ BinaryTree.\ If\ insertion\ of\ an\ element\ is\ successful\ true\ is\ returned.\ Else\ false\ is\ returned.\n\ @param\ e\ the\ iterm\ to\ be\ inserted\ into\ the\ binary\ serach\ tree\n\ @return\ bool\ boolean\ value\ depending\ on\ if\ the\ insertion\ was\ successful\n\ \n\ Note\:\ Insertion\ is\ done\ such\ that\ every\ parent\ node\ has\ two\ nodes\:\ left\ and\ right.\ The\ left\ node\ has\ a\ value\ always\ lesser\ than\ the\ parent\ \n\ node,\ and\ the\ right\ node\ has\ a\ value\ always\ greater\ than\ the\ parent\ node.\n
+comment3.params=d
+comment3.target=boolean\ contains(java.lang.Comparable)
+comment3.text=\n\ Determines\ if\ an\ element\ in\ present\ in\ \ the\ binary\ search\ tree\n\ @param\ e\ item\ to\ be\ searched\ for\ in\ the\ binary\ search\ tree\n\ @return\ bool\ true\ if\ the\ element\ is\ found\ in\ the\ BST,\ else\ returns\ false\n\ \n\ Note\:\ This\ method\ overrides\ the\ contains(E\ e)\ of\ the\ BinaryTree,\ and\ operates\ on\ the\ specific\ principle\ that\ for\ a\ parent\ node,\n\ the\ chuild\ with\ lesser\ value\ is\ the\ left\ node,\ and\ child\ with\ a\ greater\ value\ is\ the\ right\ node.\n\ \n\ Note\:\ The\ method\ calls\ helper\ method\ contains(NinaryNode<E>\ current,\ E\ target)\n
+comment4.params=current\ target
+comment4.target=boolean\ contains(BinaryNode,\ java.lang.Comparable)
+comment4.text=\n\ It\ is\ a\ helper\ method\ that\ is\ recursively\ called\ to\ check\ the\ left\ and\ right\ branches\ of\ each\ subtree\ present\ in\ the\ BST.\n\ @param\ current\ root\ node\ of\ the\ Binary\ Search\ Tree\n\ @param\ target\ element\ to\ be\ searched\ for\ in\ the\ Binary\ Search\ Tree\n\ @return\ bool\ true\ if\ the\ element\ is\ found\ in\ one\ of\ the\ subtrees,\ else\ returns\ false\n
+numComments=5

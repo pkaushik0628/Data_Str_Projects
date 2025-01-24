@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Word
+comment0.text=\n\ This\ class\ defines\ a\ Word,\ which\ has\ two\ characteritics\:\ a\ string\ and\ a\ frequency.\ The\ class\ also\ defines\ methods\ namely\:\ getWord(),\n\ getFrequency(),\ incr(),\ toString(),\ and\ compateTo().\n\n\ @author\ Padmanabh\ Kaushik\n\ @version\ 2/20/2024\n
+comment1.params=word
+comment1.target=Word(java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Word\n
+comment2.params=
+comment2.target=java.lang.String\ getWord()
+comment2.text=\n\ Returns\ the\ String\ word\n\ @return\ word\ returns\ the\ string\ of\ the\ word\n
+comment3.params=
+comment3.target=int\ getFrequency()
+comment3.text=\n\ Returns\ the\ frequency\ of\ the\ word\n\ @return\ frequency\ rfrequency\ of\ the\ word\n
+comment4.params=
+comment4.target=void\ incr()
+comment4.text=\n\ Increments\ the\ frequency\ of\ the\ word\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Converts\ a\ word\ to\ string\n\ @return\ a\ string\ for\ the\ word\ containing\ information\ about\ its\ spelling\ and\ frequency\n
+comment6.params=that
+comment6.target=int\ compareTo(Word)
+comment6.text=\n\ Compares\ the\ frequency\ of\ two\ words\n\ @param\ that\ Word\ whose\ frequency\ is\ to\ be\ compared\ to\n\ @return\ diff\ the\ fifference\ between\ frequency\ of\ two\ words\n
+numComments=7

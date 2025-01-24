@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Lab4
+comment0.text=\n\ The\ class\ calls\ the\ main\ method\ to\ read\ in\ the\ stopwords\ using\ the\ method\ extractTokens(String\ filePath).\ extractTokens(String\ filePath)\ returns\n\ an\ array\ list\ of\ stopWords,\ which\ is\ used\ as\ an\ input\ parameter\ for\ extractTokens(String\ filePath,\ ArrayList<String>\ stopWords).\ The\ \n\ extractTokens(String\ filePath,\ ArrayList<String>\ stopWords)\ reads\ in\ the\ txt\ file\ Pride_and_Prejudice\ and\ creates\ an\ array\ list\ of\ Word\ objcts\n\ excluding\ the\ word\ mentioned\ in\ stopwords.\ The\ words\ are\ then\ put\ into\ a\ WordList,\ which\ is\ further\ used\ to\ extract\ the\ 5\ most\ frequenct\ words\n\ and\ print\ the\ output\ into\ the\ console.\ The\ words\ in\ the\ document\ are\ written\ into\ a\ txt\ file\ using\ a\ fileWriter\ and\ a\ buferedWriter.\n\n\ @author\ Padmanabh\ Kaushik\n\ @version\ 2/20/2024\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=filePath
+comment2.target=java.util.ArrayList\ extractTokens(java.lang.String)
+comment2.text=\n\ The\ method\ reads\ the\ file\ at\ filepath\ using\ a\ scanner,\ splits\ the\ text\ into\ an\ array\ of\ string\ based\ on\ [\\\\W]+\ as\ a\ deliminator,\ \n\ converts\ all\ strings\ to\ lowercase,\ and\ if\ not\ present\ in\ the\ array\ list\ of\ stopWords,\ add\ these\ to\ an\ array\ list\ of\ Strings\ called\ tokens.\n\ \n\ @param\ filePath\ contains\ the\ path\ of\ the\ file\ of\ the\ processed\n\ @return\ tokens\ list\ of\ words\ in\ the\ specified\ file\ path\n
+comment3.params=filePath\ stopWords
+comment3.target=java.util.ArrayList\ extractTokens(java.lang.String,\ java.util.ArrayList)
+comment3.text=\n\ The\ method\ reads\ the\ file\ at\ filepath\ using\ a\ scanner,\ splits\ the\ text\ into\ an\ array\ of\ string\ based\ on\ [\\\\W]+\ as\ a\ deliminator,\ \n\ converts\ all\ strings\ to\ lowercase,\ and\ if\ not\ present\ in\ the\ array\ list\ of\ stopWords,\ add\ these\ to\ an\ array\ list\ of\ Strings\ called\ tokens.\n\ \n\ @param\ filepath\ path\ of\ the\ txt\ file\ of\ be\ processed\n\ @param\ stopWords\ array\ list\ of\ stopWords\n\ @return\ tokens\ list\ of\ words\ in\ the\ specified\ file\ path,\ excluding\ the\ stopwords.\n
+numComments=4
